@@ -1,0 +1,17 @@
+/* var */
+/* 主流手机分辨率适配 */
+@adapterDevList: 640px,720px,750px,1080px;
+
+@psdWidth: 480px;
+
+@baseFontSize: 100px;
+
+@len: length(@adapterDevList);
+
+@max_w: 750px;
+@min_w: 320px;
+
+.adapterMinxin(@len);
+.toPx(@rem){
+    @rem:@rem/@baseFontSize;
+}
