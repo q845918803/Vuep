@@ -8,7 +8,7 @@
 export default {
     data(){
         return {
-            name:'account'
+            name:'设置'
         }
     },
     methods:{

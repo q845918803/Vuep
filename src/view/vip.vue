@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>MESSAGE</h3>
+        <h3>VIP</h3>
     </div>
 </template>
 <script>
